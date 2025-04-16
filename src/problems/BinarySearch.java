@@ -3,7 +3,6 @@ package problems;
 public class BinarySearch {
     public BinarySearch() {}
     public static int binarySort(int searchedElement,int []  table) {
-
         for (int i = 0; i < table.length; i++) {
             table[i] = i;
         }
