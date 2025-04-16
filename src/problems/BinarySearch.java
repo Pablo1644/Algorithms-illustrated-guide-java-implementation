@@ -15,11 +15,11 @@ public class BinarySearch {
             mid = (low+high)/2;
             guess = table[mid];
             steps++;
-            System.out.println("Krok nr:" + steps+".");
-            System.out.println("Szukany element: " + searchedElement);
-            System.out.println("Typowany element: " + guess);
+            System.out.println("Step no:" + steps+".");
+            System.out.println("Searched element: " + searchedElement);
+            System.out.println("Typed/calculated element: " + guess);
             if (guess == searchedElement) {
-                System.out.println("Gratulacje! Znalazłeś liczbę");
+                System.out.println("Yeah! You found it!");
                 return mid;
             }
             else if (guess > searchedElement) {
